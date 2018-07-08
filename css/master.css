@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,700');
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 1366px;
+  margin: 0 auto;
+}
+.menu {
+  background-color: #f7f7f7;
+  width: 1366px;
+  height: 360px;
+}
+.menu ul {
+  float: right;
+  list-style-type: none;
+  margin-right: 167px;
+  margin-top: 63px;
+}
+.menu ul li {
+  float: left;
+}
+.menu ul li:nth-child(1) {
+  width: 78px;
+}
+.menu ul li:nth-child(2) {
+  width: 117px;
+}
+.menu ul li:nth-child(3) {
+  width: 97px;
+}
+.menu ul li:nth-child(4) {
+  width: 130px;
+}
+.menu ul li:nth-child(5) {
+  width: 103px;
+}
+.menu ul li:nth-child(6) {
+  padding-left: 10px;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: #8c8c8c;
+  font-size: 14px;
+  font-weight: 300;
+  padding: 0 14px 8px;
+  /*margin: 0 1px;*/
+}
+.menu ul li a:hover {
+  font-weight: 700;
+  color: #212121;
+  border-bottom: 3px solid black;
+}
+.menu a img {
+  position: relative;
+  left: 98px;
+  top: 63px;
+}
+.menu p {
+  margin-top: 256px;
+  margin-left: 98px;
+  color: #212121;
+  font-size: 62px;
+  font-weight: 100;
+  line-height: 72px;
+}
+.first {
+  padding: 71px 98px 122px;
+  display: flex;
+  justify-content: space-between;
+}
+.first .block1 {
+  outline: 1px solid #9c9c9c;
+  opacity: 0.9;
+  width: 370px;
+  height: 370px;
+}
+.first .block1 .icon {
+  position: relative;
+  margin-left: 166px;
+  margin-top: 48px;
+}
+.first .block1 .name {
+  position: relative;
+  margin-left: 117px;
+  margin-top: 24px;
+  color: #212121;
+  font-size: 21.91px;
+  font-weight: 700;
+  line-height: 30px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.first .block1 .item_address,
+.first .block1 .item_email,
+.first .block1 .item_phone {
+  color: #6c6c6c;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20.082px;
+  text-align: center;
+  margin-bottom: 12px;
+}
+.first .block1 .item_address,
+.first .block1 .item_email,
+.first .block1 .item_phone {
+  color: #6c6c6c;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20.082px;
+  text-align: center;
+}
+.first .block1 .contact {
+  display: block;
+  color: black;
+}
+.first .block1 .item_address .contact:last-child {
+  font-weight: 300;
+  color: #6c6c6c;
+}
+.first .block1 .item_email span a {
+  text-decoration: none;
+  color: #212121;
+}
+.first .block1 .item_email span a:hover {
+  color: #1e88e5;
+}
+.footer {
+  background-color: #f7f7f7;
+  height: 384px;
+}
+.footer .copyrights {
+  padding: 63px 97px 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer .copyrights a {
+  text-transform: uppercase;
+  color: #6c6c6c;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 26px;
+  text-decoration: none;
+}
+.footer .copyrights a:hover {
+  text-decoration: underline;
+}
+.footer .copyrights .social a img:hover {
+  cursor: pointer;
+}
+.footer .copyrights .copyright {
+  text-transform: uppercase;
+  color: #6c6c6c;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 26px;
+}
+.footer .copyrights .social {
+  font-size: 26px;
+  margin: 0 1px;
+}
+.footer .information {
+  display: flex;
+  justify-content: space-between;
+  padding: 115px 97px 0;
+}
+.footer .information .coloumn_1 {
+  width: 300px;
+  display: block;
+}
+.footer .information .coloumn_2 {
+  width: 430px;
+  display: block;
+}
+.footer .information .coloumn_3 {
+  width: 370px;
+  display: block;
+}
+.footer .information .title {
+  color: #6c6c6c;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+  margin-bottom: 17px;
+}
+.footer .information .adress,
+.footer .information .email,
+.footer .information .phone {
+  color: #212121;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+}
+.footer .information .phone {
+  margin-top: 23px;
+}
+.footer .information .email a {
+  text-decoration: none;
+  color: #212121;
+}
+.footer .information .email a:hover {
+  color: #1e88e5;
+}
+.footer .information .info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer .information .info div {
+  width: 190px;
+  margin-bottom: 5px;
+}
+.footer .information .info div a {
+  text-transform: uppercase;
+  color: #212121;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.footer .information .details {
+  color: #212121;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+}
+.footer .information .subscribe {
+  margin-top: 23px;
+  position: relative;
+}
+.footer .information .subscribe .input {
+  width: 370px;
+  height: 48px;
+  padding: 15px 15px 15px 18px;
+  border: 1px solid #d9dee1;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.footer .information .subscribe .submit {
+  position: absolute;
+  top: 0;
+  right: -5px;
+  width: 58px;
+  height: 48px;
+  border: 0;
+  background: transparent url("../img/paper-fly.png") no-repeat 18px 17px;
+}

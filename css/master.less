@@ -1,0 +1,302 @@
+// out: master.css, sourcemap: false, compress: false
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,700');
+@widthBody: 1366px;
+@menuHeared: menu;
+@firstblock: first;
+@footer: footer;
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+
+  width: 1366px;
+  margin: 0 auto;
+}
+
+.@{menuHeared} {
+  background-color: #f7f7f7;
+  width: @widthBody;
+  height: 360px;
+
+  ul {
+    float: right;
+    list-style-type: none;
+    margin-right: 167px;
+    margin-top: 63px;
+  }
+
+  ul li {
+    float: left;
+  }
+
+  ul li:nth-child(1) {width: 78px}
+
+  ul li:nth-child(2) {width: 117px}
+
+  ul li:nth-child(3) {width: 97px}
+
+  ul li:nth-child(4) {width: 130px}
+
+  ul li:nth-child(5) {width: 103px}
+
+  ul li:nth-child(6) {
+    padding-left: 10px;
+  }
+
+  ul li a {
+
+    text-decoration: none;
+    color: #8c8c8c;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 0 14px 8px;
+    /*margin: 0 1px;*/
+  }
+
+  ul li a:hover {
+    font-weight: 700;
+    color: #212121;
+    border-bottom: 3px solid black;
+  }
+
+  a img {
+    position: relative;
+    left: 98px;
+    top: 63px;
+  }
+
+  p {
+
+    margin-top: 256px;
+    margin-left: 98px;
+    color: #212121;
+    font-size: 62px;
+    font-weight: 100;
+    line-height: 72px;
+  }
+
+
+}
+
+.@{firstblock} {
+  padding: 71px 98px 122px;
+  display: flex;
+  justify-content: space-between;
+
+  .block1 {
+    outline: 1px solid #9c9c9c;
+    opacity: 0.9;
+    width: 370px;
+    height: 370px;
+
+    .icon {
+      position: relative;
+      margin-left: 166px;
+      margin-top: 48px;
+    }
+
+    .name {
+      position: relative;
+      margin-left: 117px;
+      margin-top: 24px;
+      color: #212121;
+      font-size: 21.91px;
+      font-weight: 700;
+      line-height: 30px;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+    }
+
+    .item_address,
+    .item_email,
+    .item_phone {
+      color: #6c6c6c;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 20.082px;
+      text-align: center;
+      margin-bottom: 12px;
+    }
+
+    .item_address,
+    .item_email,
+    .item_phone {
+      color: #6c6c6c;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 20.082px;
+      text-align: center;
+    }
+
+    .contact {
+      display: block;
+      color: black;
+    }
+
+    .item_address .contact:last-child {
+      font-weight: 300;
+      color: #6c6c6c;
+    }
+
+    .item_email span a {
+      text-decoration: none;
+      color: #212121;
+    }
+
+    .item_email span a:hover {
+      color: #1e88e5;
+    }
+  }
+}
+
+.@{footer} {
+  background-color: #f7f7f7;
+  height: 384px;
+
+  .copyrights {
+    padding: 63px 97px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    a {
+      text-transform: uppercase;
+      color: #6c6c6c;
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 26px;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .social a img:hover {
+      cursor: pointer;
+    }
+
+    .copyright {
+      text-transform: uppercase;
+      color: #6c6c6c;
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 26px;
+    }
+
+    .social {
+      font-size: 26px;
+      margin: 0 1px;
+    }
+  }
+}
+
+.@{footer} .information {
+  display: flex;
+  justify-content: space-between;
+  padding: 115px 97px 0;
+
+  .coloumn_1 {
+    width: 300px;
+    display: block;
+  }
+
+  .coloumn_2 {
+    width: 430px;
+    display: block;
+  }
+
+  .coloumn_3 {
+    width: 370px;
+    display: block;
+  }
+
+  .title {
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    margin-bottom: 17px;
+  }
+
+  .adress,
+  .email,
+  .phone {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+  }
+
+  .phone {
+    margin-top: 23px;
+  }
+
+  .email a {
+    text-decoration: none;
+    color: #212121;
+  }
+
+  .email a:hover {
+    color: #1e88e5;
+  }
+
+  .info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .info div {
+    width: 190px;
+    margin-bottom: 5px;
+  }
+
+  .info div a {
+    text-transform: uppercase;
+    color: #212121;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+  .details {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+  }
+
+  .subscribe {
+    margin-top: 23px;
+    position: relative;
+
+    .input {
+      width: 370px;
+      height: 48px;
+      padding: 15px 15px 15px 18px;
+      border: 1px solid #d9dee1;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+
+    .submit {
+      position: absolute;
+      top: 0;
+      right: -5px;
+      width: 58px;
+      height: 48px;
+      border: 0;
+      background: transparent url("../img/paper-fly.png") no-repeat 18px 17px;
+    }
+  }
+}
